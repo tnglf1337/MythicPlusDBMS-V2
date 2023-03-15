@@ -5,7 +5,7 @@ You can quickly insert/delete runs into your database. App shows average statist
 
 Setup your own MySQL Community Server. Create your own database and table. Names can be chosen freely.
 The tables columns MUST be named as followed:
-
+```
 char_name VARCHAR(16),
 difficulty VARCHAR(10),
 finished_in INT,
@@ -15,7 +15,7 @@ run_date DATE,
 run_id INT PRIMARY KEY AUTO_INCREMENT,
 usefull_drop VARCHAR(10),
 dungeon VARCHAR(100)
-
+```
 Inside MainFrame.java insert your personal user/database information you set up..
 App should then be running (variable URL in Database is for the standard MySQL Community-Edition installation).
 
