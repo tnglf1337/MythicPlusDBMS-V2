@@ -6,6 +6,7 @@ You can quickly insert/delete runs into your database. App shows average statist
 Setup your own MySQL Community Server. Create your own database and table. Names can be chosen freely.
 The tables columns MUST be named as followed:
 ```
+run_id INT PRIMARY KEY AUTO_INCREMENT,
 char_name VARCHAR(16),
 difficulty VARCHAR(10),
 finished_in INT,
