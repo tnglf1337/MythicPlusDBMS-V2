@@ -13,19 +13,16 @@ gear_drop VARCHAR(10),
 gsc_of_drop INT,
 run_date DATE,
 run_id INT PRIMARY KEY AUTO_INCREMENT,
-usefull_drop VARCHAR(10)
+usefull_drop VARCHAR(10),
+dungeon VARCHAR(100)
 
-Inside App.java insert your user/database information.
+Inside MainFrame.java insert your personal user/database information you set up..
 App should then be running (variable URL in Database is for the standard MySQL Community-Edition installation).
 
 ## Planned
-Implement some sort of setup so the desired database and table gets automatically created on users pc (if possible?).
 Implement as Add-On into World of Warcraft, so everything gets automatically updated after a finished run.
 
 ## Folder Structure
-
-The workspace contains two folders by default, where:
-
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 - `res`: the folder to maintain design elements
